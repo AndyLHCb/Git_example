@@ -1,0 +1,16 @@
+name: Test the examples code for the git lesson
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.13.1
+      - name: Install dependencies
+        run: pip install -vv pytest
+      - name: Run test
+        run: pytest -v -s --color=yes test.py
+
