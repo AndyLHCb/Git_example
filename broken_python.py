@@ -4,7 +4,7 @@ def add_one(x : int) -> int:
 
 def average(x: float, y: float) -> float:
     """ average two numbers """
-    return (x + y) * 2
+    return (x + y) / 2
 
 def calculate_power(E: float, t: float) -> float:
     """ calculate the average power consumption 
