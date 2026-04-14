@@ -1,6 +1,6 @@
 def add_one(x : int) -> int:
     """ add one to a number """
-    return x + 2
+    return x + 1
 
 def average(x: float, y: float) -> float:
     """ average two numbers """
