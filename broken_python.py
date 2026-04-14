@@ -23,7 +23,7 @@ def check_equality(a: float, b: float) -> bool:
 def exponentiate(a: float) -> float:
     """ return e^a for an input a """
     from math import exp
-    return exp(a + 1)
+    return exp(a)
 
 def check_capitals(str_in: str ) -> bool:
     """ checks if the string str_in is all-caps """
