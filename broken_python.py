@@ -36,5 +36,5 @@ def censor_github(str_in: str) -> str:
 
 def count_vowels(str_in: str) -> int:
     """ counts the number of vowels in an input word "str_in" """
-    vowels = ["ay", "eee", "aye", "oh", "you"]
+    vowels = ["a", "e", "i", "o", "u", "y"]
     return sum(1 for letter in str_in.lower() if letter in vowels)
