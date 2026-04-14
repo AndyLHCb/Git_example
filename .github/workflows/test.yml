@@ -1,5 +1,7 @@
 name: Test the examples code for the git lesson
-on: push
+on:
+  push:
+  pull_request:
 jobs:
   test:
     runs-on: ubuntu-latest
